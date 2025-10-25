@@ -1,4 +1,4 @@
-![depth_limited_search](https://github.com/user-attachments/assets/1949c889-089b-46d9-9924-928bcfeb3ee5)# 1. Breadth-First Search (BFS)
+# 1. Breadth-First Search (BFS)
 ## How it Works
 
 BFS explores nodes level-by-level starting from a source. It uses a queue and marks visited nodes to avoid repeats.
