@@ -1,4 +1,4 @@
-# 1. Breadth-First Search (BFS)
+![depth_limited_search](https://github.com/user-attachments/assets/1949c889-089b-46d9-9924-928bcfeb3ee5)# 1. Breadth-First Search (BFS)
 ## How it Works
 
 BFS explores nodes level-by-level starting from a source. It uses a queue and marks visited nodes to avoid repeats.
@@ -18,232 +18,186 @@ BFS explores nodes level-by-level starting from a source. It uses a queue and ma
 ![Breadth-First Search (BFS)](https://github.com/user-attachments/assets/88243b8a-83a9-46b0-a3d7-fad43806764b)
 
 
-2. Depth-First Search (DFS)
-How it Works
+# 2. Depth-First Search (DFS)
+## How it Works
 
 DFS explores as deep as possible along a branch before backtracking. Implemented with recursion or a stack.
 
-Applications
+## Applications
+-Topological sorting <br>
+-Detecting cycles <br>
+-Maze solving <br>
+-Pathfinding in implicit graphs <br>
 
-Topological sorting
+## Complexity
+-Time: O(V + E) <br>
+-Space: O(V) (recursion stack) <br>
 
-Detecting cycles
+## Input / Output
 
-Maze solving
+![Depth-First-Search](https://github.com/user-attachments/assets/92eeb2e1-f307-4ba0-92eb-72136f942ebc)
 
-Pathfinding in implicit graphs
-
-Complexity
-
-Time: O(V + E)
-
-Space: O(V) (recursion stack)
-
-Input / Output
-
-images/dfs_example.png
-
-3. Bidirectional Search
-How it Works
+# 3. Bidirectional Search
+## How it Works
 
 Runs two simultaneous searches — one from the start and one from the goal — and meets in the middle to reduce work.
 
-Applications
+## Applications
+-Shortest path (when start & goal known) <br>
+-Route planning in large graphs <br>
+## Complexity
 
-Shortest path (when start & goal known)
+-Time: roughly O(b^(d/2) + b^(d/2)) vs O(b^d) for single-direction (b = branching factor, d = solution depth) <br>
+-Space: O(b^(d/2)) <br>
 
-Route planning in large graphs
+## Input / Output
 
-Complexity
+![Bidirectional Search](https://github.com/user-attachments/assets/59db6b83-19fd-40c3-9365-e65e12149393)
 
-Time: roughly O(b^(d/2) + b^(d/2)) vs O(b^d) for single-direction (b = branching factor, d = solution depth)
 
-Space: O(b^(d/2))
-
-Input / Output
-
-images/bidirectional_example.png
-
-4. Depth-Limited Search (DLS)
-How it Works
+# 4. Depth-Limited Search (DLS)
+## How it Works
 
 A DFS variant with a fixed depth limit. If depth limit reached, the search stops along that branch.
 
-Applications
+## Applications
 
-Avoid infinite paths in cyclic or infinite-depth graphs
+-Avoid infinite paths in cyclic or infinite-depth graphs <br>
+-Controlled resource usage <br>
 
-Controlled resource usage
+## Complexity
 
-Complexity
+-Time: O(b^l) where l = depth limit <br>
+-Space: O(l) <br>
 
-Time: O(b^l) where l = depth limit
+## Input / Output
 
-Space: O(l)
+![depth_limited_search](https://github.com/user-attachments/assets/b86a3f3a-61eb-4f36-aad2-2fc2322d97d1)
 
-Input / Output
 
-images/depth_limited_example.png
-
-5. Iterative Deepening Depth-First Search (IDDFS)
-How it Works
+# 5. Iterative Deepening Depth-First Search (IDDFS)
+## How it Works
 
 Performs repeated DLS with increasing depth limits (0,1,2...) until solution found. Combines DFS space efficiency with BFS completeness.
 
-Applications
+## Applications
+-When solution depth is unknown but memory is limited <br>
+-Optimal finding in unweighted trees <br>
 
-When solution depth is unknown but memory is limited
+## Complexity
 
-Optimal finding in unweighted trees
+-Time: O(b^d) (slightly higher constant than DFS) <br>
+-Space: O(d) <br>
 
-Complexity
+## Input / Output
 
-Time: O(b^d) (slightly higher constant than DFS)
+![Iterative Deepening Depth-First Search (IDDFS)](https://github.com/user-attachments/assets/027a0a81-a590-44b0-96da-09777940dd9d)
 
-Space: O(d)
 
-Input / Output
-
-images/iddfs_example.png
-
-6. Best-First Search
-How it Works
+# 6. Best-First Search
+## How it Works
 
 Explores nodes by a heuristic value (priority queue). Chooses node that appears most promising according to heuristic h(n).
 
-Applications
+## Applications
+-Greedy pathfinding <br>
+-Route planning with heuristic guidance <br>
 
-Greedy pathfinding
+## Complexity
 
-Route planning with heuristic guidance
+-Time: depends on heuristic and branching factor (worst-case exponential) <br>
+-Space: can be large (stores frontier) <br>
 
-Complexity
+## Input / Output
 
-Time: depends on heuristic and branching factor (worst-case exponential)
+![Best-First Search](https://github.com/user-attachments/assets/2083d7eb-b9fc-4724-a662-07c5875679ed)
 
-Space: can be large (stores frontier)
 
-Input / Output
-
-images/best_first_example.png
-
-7. Hill-Climbing Search
-How it Works
-
-Local search that iteratively moves to the neighbor with a better heuristic value until no improvement is possible (a peak).
-
-Applications
-
-Optimization problems
-
-When solution landscape is smooth and local improvements help
-
-Complexity
-
-Time: depends on landscape and stopping criteria
-
-Space: O(1)–O(n) depending on implementation
-
-Notes
-
-Can get stuck in local maxima; random restarts or simulated annealing help.
-
-Input / Output
-
-images/hill_climbing_example.png
-
-8. Beam Search
-How it Works
+# 7. Beam Search
+## How it Works
 
 A breadth-limited heuristic search that keeps only the best k candidates at each level (beam width k).
 
-Applications
+## Applications
 
-NLP (sequence decoding)
+-NLP (sequence decoding) <br>
+-Large search spaces where full frontier is too large <br>
 
-Large search spaces where full frontier is too large
+## Complexity
 
-Complexity
+-Time: O(b * k * d) roughly <br>
+-Space: O(k)
 
-Time: O(b * k * d) roughly
+## Input / Output
 
-Space: O(k)
+![Beam Search](https://github.com/user-attachments/assets/bfbd38fc-f29c-469d-9bb7-f35755d7f53d)
 
-Input / Output
 
-images/beam_search_example.png
-
-9. A* Search
-How it Works
+# 8. A* Search
+## How it Works
 
 Uses f(n) = g(n) + h(n) where g is cost from start and h is heuristic to goal. If h is admissible, A* is optimal and complete.
 
-Applications
+## Applications
 
-Optimal pathfinding with costs (games, robotics)
+-Optimal pathfinding with costs (games, robotics) <br>
+-Route planning <br>
 
-Route planning
+## Complexity
 
-Complexity
+-Time: exponential in worst case, depends on heuristic quality <br>
+-Space: high (stores frontier) <br>
 
-Time: exponential in worst case, depends on heuristic quality
+## Input / Output
 
-Space: high (stores frontier)
+<img width="559" height="669" alt="a-star" src="https://github.com/user-attachments/assets/9e6b01fb-a000-44bc-a685-c0894851929a" />
 
-Input / Output
-
-images/a_star_example.png
-
-10. Minimax Algorithm
-How it Works
+# 9. Minimax Algorithm
+## How it Works
 
 Adversarial search that assumes both players play optimally; maximizer chooses moves to maximize score, minimizer to minimize it. Explores game tree to terminal states or depth limit.
 
-Applications
+## Applications
 
-Two-player zero-sum games (chess, tic-tac-toe)
+-Two-player zero-sum games (chess, tic-tac-toe) <br>
+-Game AI baseline <br>
 
-Game AI baseline
+## Complexity
 
-Complexity
+-Time: O(b^d) where d = depth <br>
+-Space: O(d) <br>
 
-Time: O(b^d) where d = depth
+## Input / Output
 
-Space: O(d)
+<img width="500" height="447" alt="Minimax Algorithm" src="https://github.com/user-attachments/assets/3880021c-4b9e-4377-a908-29672edc1ffd" />
 
-Input / Output
 
-images/minimax_example.png
-
-11. Alpha-Beta Pruning
-How it Works
+# 10. Alpha-Beta Pruning
+## How it Works
 
 Optimization of minimax that prunes branches that cannot affect final decision, using α (alpha) and β (beta) bounds.
 
-Applications
+## Applications
 
-Same as minimax but much faster in practice
+-Same as minimax but much faster in practice <br>
+-Competitive game-playing agents
 
-Competitive game-playing agents
+## Complexity
 
-Complexity
+-Time: O(b^(d/2)) in best case, still O(b^d) worst-case <br>
+-Space: O(d) <br>
 
-Time: O(b^(d/2)) in best case, still O(b^d) worst-case
+## Input / Output
 
-Space: O(d)
+![Alpha-Beta Pruning](https://github.com/user-attachments/assets/e3f07165-638f-485f-8296-63f296ec5fae)
 
-Input / Output
 
-images/alpha_beta_example.png
+# How to use these notes
 
-How to use these notes
+-Each images/*.png is a placeholder — replace with your own example diagrams. <br>
+-Shorten or expand any section for your assignment needs. <br>
 
-Each images/*.png is a placeholder — replace with your own example diagrams.
+# References & Further Reading
 
-Shorten or expand any section for your assignment needs.
-
-References & Further Reading
-
-Standard textbooks: Artificial Intelligence: A Modern Approach (Russell & Norvig)
-
-Online resources: algorithm visualizers, lecture notes
+-Standard textbooks: Artificial Intelligence: A Modern Approach (Russell & Norvig) <br>
+-Online resources: algorithm visualizers, lecture notes
