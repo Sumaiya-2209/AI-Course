@@ -4,14 +4,14 @@
 BFS explores nodes level-by-level starting from a source. It uses a queue and marks visited nodes to avoid repeats.
 
 ## Applications
--Shortest path in unweighted graphs
--Web crawling
--Social network analysis
--Garbage collection (mark phase)
+-Shortest path in unweighted graphs <br>
+-Web crawling <br>
+-Social network analysis <br>
+-Garbage collection (mark phase) <br>
 
 ## Complexity
--Time: O(V + E)
--Space: O(V)
+-Time: O(V + E) <br>
+-Space: O(V) <br>
 
 ## Input / Output
 
