@@ -1,25 +1,19 @@
-#1. Breadth-First Search (BFS)
-##How it Works
+# 1. Breadth-First Search (BFS)
+## How it Works
 
 BFS explores nodes level-by-level starting from a source. It uses a queue and marks visited nodes to avoid repeats.
 
-##Applications
-
+## Applications
 -Shortest path in unweighted graphs
-
 -Web crawling
-
 -Social network analysis
-
 -Garbage collection (mark phase)
 
-##Complexity
-
+## Complexity
 -Time: O(V + E)
-
 -Space: O(V)
 
-##Input / Output
+## Input / Output
 
 ![Breadth-First Search (BFS)](https://github.com/user-attachments/assets/88243b8a-83a9-46b0-a3d7-fad43806764b)
 
