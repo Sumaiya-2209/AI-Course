@@ -9,7 +9,7 @@ A simple chess game implemented in Python using the Pygame library. It features 
 </p>
 
 <p align="center">
-  <em>Untitled video - Made with Clipchamp</em>
+  <img width="801" height="892" alt="Screenshot 2025-10-25 205226" src="https://github.com/user-attachments/assets/234ad99f-0114-48cc-bfb3-52d3abc021f5" />
 </p>
 
 <hr>
@@ -28,12 +28,8 @@ This is a basic implementation of a chess game with a graphical user interface. 
   <li>The game features a user-friendly graphical interface developed using the Pygame library.</li>
 </ul>
 
-<h3>👥 Two-player Mode:</h3>
-<ul>
-  <li>Play against a friend in human vs. human gameplay. Enjoy the classic chess experience with two human players.</li>
-</ul>
 
-<h3>🤖 AI Opponent:</h3>
+<h3>🤖 AI Chess:</h3>
 <ul>
   <li>Challenge yourself against an AI opponent equipped with the negamax algorithm and alpha-beta pruning. The AI has options to make valid moves, providing a single-player chess experience.</li>
 </ul>
@@ -41,11 +37,6 @@ This is a basic implementation of a chess game with a graphical user interface. 
 <h3>♔ Checkmate, Stalemate, and Legal Moves:</h3>
 <ul>
   <li>The game checks for conditions such as checkmate, stalemate, and legal moves, ensuring a fair and rule-compliant gameplay experience.</li>
-</ul>
-
-<h3>🎯 Advanced Chess Mechanics:</h3>
-<ul>
-  <li>Supports advanced chess mechanics, including pawn promotion, en passant, and castling for a more strategic and engaging experience.</li>
 </ul>
 
 <h3>↩️ Undo and Reset Board:</h3>
@@ -56,11 +47,6 @@ This is a basic implementation of a chess game with a graphical user interface. 
 <h3>🎨 Variety of Chess Boards:</h3>
 <ul>
   <li>Enjoy playing on different chess board colors, adding a personalized touch to your gaming experience.</li>
-</ul>
-
-<h3>🔊 Immersive Sounds and Images:</h3>
-<ul>
-  <li>Enhance your gaming experience with multiple piece move or capture sounds.</li>
 </ul>
 
 <hr>
@@ -75,17 +61,14 @@ In chess, the en passant rule allows a pawn to capture an opponent's pawn that h
 <table>
   <tr>
     <td><strong>Initial Position:</strong></td>
-    <td>Chessboard</td>
+    <img width="799" height="893" alt="Screenshot 2025-10-25 205517" src="https://github.com/user-attachments/assets/b1f73225-84f0-49c3-ba15-1920b2369265" />
+
   </tr>
   <tr>
     <td><strong>Opponent's Move:</strong></td>
-    <td>Chessboard</td>
+    <img width="805" height="884" alt="Screenshot 2025-10-25 205434" src="https://github.com/user-attachments/assets/3de8621a-8f61-435a-9797-e696e062f8a0" />
+
   </tr>
-  <tr>
-    <td><strong>En Passant Capture:</strong></td>
-    <td>Chessboard</td>
-  </tr>
-</table>
 
 <h3>Pawn Promotion</h3>
 <p>
@@ -95,13 +78,9 @@ In chess, pawn promotion occurs when a pawn reaches the eighth rank. The pawn ca
 <table>
   <tr>
     <td><strong>Reach the Eighth Rank:</strong></td>
-    <td>Chessboard</td>
+    <img width="804" height="883" alt="Screenshot 2025-10-25 210942" src="https://github.com/user-attachments/assets/4a7db9d7-cc52-4224-b441-d44a260b1181" />
+
   </tr>
-  <tr>
-    <td><strong>Select the Promotion Piece:</strong></td>
-    <td>Chessboard</td>
-  </tr>
-</table>
 
 <hr>
 
