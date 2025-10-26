@@ -75,7 +75,6 @@ In chess, the en passant rule allows a pawn to capture an opponent's pawn that h
 In chess, pawn promotion occurs when a pawn reaches the eighth rank. The pawn can be promoted to any other chess piece (except a king). Here's how it works:
 </p>
 
-<table>
   <tr>
     <td><strong>Reach the Eighth Rank:</strong></td>
     <img width="804" height="883" alt="Screenshot 2025-10-25 210942" src="https://github.com/user-attachments/assets/4a7db9d7-cc52-4224-b441-d44a260b1181" />
