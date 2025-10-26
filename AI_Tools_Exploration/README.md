@@ -9,10 +9,12 @@ This folder contains two AI-powered creations based on our AI course:
 </p>
 
 <div align="center">
+  <table>
     <tr>
-      <td align="center"><strong>🎥 Video</strong><br>(1+ minute)</td><br>
+      <td align="center"><strong>🎥 Video</strong><br>(1+ minute)</td>
       <td align="center"><strong>📊 Presentation Slides</strong><br>(14 slides)</td>
     </tr>
+  </table>
 </div>
 
 <p align="center">
@@ -23,16 +25,14 @@ This folder contains two AI-powered creations based on our AI course:
 
 <h2>🎥 AI-Created Video</h2>
 
-<table>
   <tr>
     <td><strong>Tool Used:</strong></td>
     <td>InVideo AI</td>
-  </tr>
+  </tr><br>
   <tr>
     <td><strong>Purpose:</strong></td>
     <td>To create a 1+ minute video that blends theory (course topics) and lab work (algorithms & games).</td>
   </tr>
-</table>
 
 <h3>✅ Steps:</h3>
 
