@@ -65,7 +65,7 @@ In chess, the en passant rule allows a pawn to capture an opponent's pawn that h
 
   </tr>
   <tr>
-    <td><strong>Opponent's Move:</strong></td>
+    <td><strong>Opponent's Move:</strong></td><br>
     <img width="805" height="884" alt="Screenshot 2025-10-25 205434" src="https://github.com/user-attachments/assets/3de8621a-8f61-435a-9797-e696e062f8a0" />
 
   </tr>
