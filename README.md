@@ -1,135 +1,162 @@
-<div align="center">
-  <h1>🤖 Artificial Intelligence Course Overview</h1>
-  <p><em>A comprehensive 6-month journey into the world of AI</em></p>
-</div>
+<!DOCTYPE html>
+<html>
+<body>
 
----
+<h1 align="center">🤖 Artificial Intelligence Course Overview</h1>
 
-## 📌 Purpose of the Course
+<hr>
 
-The primary purpose of this course was to develop familiarity with the field of **Artificial Intelligence (AI)**, including its foundational concepts, theoretical frameworks, and real-world applications. The course introduced key AI terminologies, constraint satisfaction problems, and essential problem-solving strategies. It focused on how AI works and how it can be applied effectively in various domains, such as games and real-life scenarios.
+<h2>📌 Purpose of the Course</h2>
+<p>
+The primary purpose of this course was to develop familiarity with the field of <strong>Artificial Intelligence (AI)</strong>, 
+including its foundational concepts, theoretical frameworks, and real-world applications. The course introduced key AI 
+terminologies, constraint satisfaction problems, and essential problem-solving strategies. It focused on how AI works 
+and how it can be applied effectively in various domains, such as games and real-life scenarios.
+</p>
 
----
+<hr>
 
-## 📚 What I Learned from the Course
+<h2>📚 What I Learned from the Course</h2>
 
-### 🧠 Theory
+<h3>🧠 Theory</h3>
+<ul>
+  <li>Introduction to AI and its applications</li>
+  <li>Types of AI: Narrow, General, Super</li>
+  <li>Intelligent Agents: Simple Reflex, Model-Based, Goal-Based, Utility-Based</li>
+  <li>Search Strategies (Uninformed & Informed)</li>
+  <li>Game Playing in AI</li>
+  <li>Constraint Satisfaction Problems (CSP)</li>
+  <li>Consistency in CSP</li>
+  <li>Branch and Bound Algorithm</li>
+  <li>Knowledge Representation and Reasoning</li>
+  <li>Uncertainty, Probability, Bayesian Inference</li>
+  <li>Natural Language Processing (NLP)</li>
+  <li>Robotics and Machine Perception</li>
+</ul>
 
+<h3>⚙️ Algorithms Implemented</h3>
+
+<h4>🔍 Uninformed Search Algorithms:</h4>
+<ul>
+  <li>Breadth-First Search (BFS)</li>
+  <li>Depth-First Search (DFS)</li>
+  <li>Iterative Deepening Search (IDS)</li>
+  <li>Depth-Limited Search (DLS)</li>
+  <li>Bidirectional Search</li>
+</ul>
+
+<h4>🎯 Informed Search Algorithms:</h4>
+<ul>
+  <li>Heuristic Search</li>
+  <li>Best-First Search</li>
+  <li>A* Algorithm</li>
+  <li>AO* Algorithm</li>
+  <li>Hill Climbing</li>
+  <li>Beam Search</li>
+</ul>
+
+<h4>🎮 Game Playing Algorithms:</h4>
+<ul>
+  <li>Minimax Algorithm</li>
+  <li>Alpha-Beta Pruning</li>
+</ul>
+
+<p>
+<em>Implemented these algorithms in practical scenarios, especially in game-based AI systems like Chess, TicTacToe, and Smart RPS.</em>
+</p>
+
+<hr>
+
+<h2>📂 Repository Overview</h2>
+
+<h3>📁 AI-Games</h3>
+<p><strong>AI-powered games demonstrating practical applications of algorithms:</strong></p>
 <table>
   <tr>
-    <td>✅ Introduction to AI and its applications</td>
-    <td>✅ Types of AI: Narrow, General, Super</td>
+    <th>Game</th>
+    <th>Description</th>
+    <th>Technologies</th>
   </tr>
   <tr>
-    <td>✅ Intelligent Agents: Simple Reflex, Model-Based, Goal-Based, Utility-Based</td>
-    <td>✅ Search Strategies (Uninformed & Informed)</td>
+    <td><code>chess</code></td>
+    <td>Human vs AI chess game</td>
+    <td>Next.js, minimax with alpha-beta pruning</td>
   </tr>
   <tr>
-    <td>✅ Game Playing in AI</td>
-    <td>✅ Constraint Satisfaction Problems (CSP)</td>
+    <td><code>tictactoe</code></td>
+    <td>Python Tic-Tac-Toe with unbeatable minimax AI</td>
+    <td>Python, Minimax Algorithm</td>
   </tr>
   <tr>
-    <td>✅ Consistency in CSP</td>
-    <td>✅ Branch and Bound Algorithm</td>
+    <td><code>smart-rps</code></td>
+    <td>Python Rock-Paper-Scissors with adaptive, learning AI</td>
+    <td>Python, Machine Learning</td>
+  </tr>
+</table>
+<p><em>Each subfolder includes code, a detailed README (how it works, complexity, examples).</em></p>
+
+<h3>📁 AI-Tools-Exploration</h3>
+<p>AI-generated course video and slides, with documentation on tools and process.</p>
+
+<h3>📁 Algorithm-Implementation</h3>
+<p><strong>Contains all implemented AI algorithms, organized by type:</strong></p>
+<table>
+  <tr>
+    <th>Folder</th>
+    <th>Description</th>
+    <th>Algorithms</th>
   </tr>
   <tr>
-    <td>✅ Knowledge Representation and Reasoning</td>
-    <td>✅ Uncertainty, Probability, Bayesian Inference</td>
+    <td><code>uninformed-searches</code></td>
+    <td>Classic uninformed search algorithms</td>
+    <td>BFS, DFS, IDS, DLS, Bidirectional</td>
   </tr>
   <tr>
-    <td>✅ Natural Language Processing (NLP)</td>
-    <td>✅ Robotics and Machine Perception</td>
+    <td><code>informed-searches</code></td>
+    <td>Heuristic and best-first search algorithms</td>
+    <td>A*, AO*, Beam, etc.</td>
+  </tr>
+  <tr>
+    <td><code>local-searches</code></td>
+    <td>Local search methods</td>
+    <td>Hill Climbing, Beam Search</td>
+  </tr>
+  <tr>
+    <td><code>minimax-alphabetapruning</code></td>
+    <td>Game tree search</td>
+    <td>Minimax, Alpha-Beta Pruning</td>
+  </tr>
+</table>
+<p><em>Each subfolder includes code, a detailed README (how it works, applications, complexity, examples).</em></p>
+
+<hr>
+
+<h2>⏱️ Duration of the Course</h2>
+<p>The total duration of this course was <strong>6 months</strong>.</p>
+
+<hr>
+
+<h2>👨‍🏫 Course Supervisor</h2>
+<table>
+  <tr>
+    <td><strong>Course Taken By:</strong></td>
+    <td>Razorshi Prozzwal Talukder</td>
+  </tr>
+  <tr>
+    <td><strong>Designation:</strong></td>
+    <td>Lecturer</td>
+  </tr>
+  <tr>
+    <td><strong>Institution:</strong></td>
+    <td>North East University Bangladesh</td>
   </tr>
 </table>
 
----
+<hr>
 
-### ⚙️ Algorithms Implemented
+<p align="center">
+  <strong>🎓 Course Completed Successfully 🎓</strong>
+</p>
 
-<details>
-<summary><b>🔍 Uninformed Search Algorithms</b></summary>
-
-- Breadth-First Search (BFS)
-- Depth-First Search (DFS)
-- Iterative Deepening Search (IDS)
-- Depth-Limited Search (DLS)
-- Bidirectional Search
-
-</details>
-
-<details>
-<summary><b>🎯 Informed Search Algorithms</b></summary>
-
-- Heuristic Search
-- Best-First Search
-- A* Algorithm
-- AO* Algorithm
-- Hill Climbing
-- Beam Search
-
-</details>
-
-<details>
-<summary><b>🎮 Game Playing Algorithms</b></summary>
-
-- Minimax Algorithm
-- Alpha-Beta Pruning
-
-Implemented these algorithms in practical scenarios, especially in game-based AI systems like **Chess**, **TicTacToe**, and **Smart RPS**.
-
-</details>
-
----
-
-## 📂 Repository Overview
-
-### 🎮 AI-Games
-
-<p>AI-powered games demonstrating practical applications of algorithms:</p>
-
-| Game | Description | Technologies |
-|------|-------------|--------------|
-| **♟️ Chess** | Human vs AI chess game | Next.js, Minimax with Alpha-Beta Pruning |
-| **❌ TicTacToe** | Unbeatable AI opponent | Python, Minimax Algorithm |
-| **✊ Smart RPS** | Adaptive, learning AI | Python, Pattern Recognition |
-
-> 💡 Each subfolder includes code and a detailed README (how it works, complexity, examples).
-
----
-
-### 🛠️ AI-Tools-Exploration
-
-<p>AI-generated course video and slides, with documentation on tools and process.</p>
-
----
-
-### 💻 Algorithm-Implementation
-
-<p>Contains all implemented AI algorithms, organized by type:</p>
-
-> 💡 Each subfolder includes code and a detailed README (how it works, applications, complexity, examples).
-
----
-
-## ⏱️ Duration of the Course
-
-<div align="center">
-  <h3>📅 Total Duration: <code>6 Months</code></h3>
-</div>
-
----
-
-## 👨‍🏫 Course Supervisor
-
-<div align="center">
-  <h3>Course Taken By:</h3>
-  <h2><b>Razorshi Prozzwal Talukder</b></h2>
-  <p><em>Lecturer, North East University Bangladesh</em></p>
-</div>
-
----
-
-<div align="center">
-  <p>Made with ❤️ and lots of ☕</p>
-  <p>⭐ Star this repository if you found it helpful!</p>
-</div>
+</body>
+</html>
