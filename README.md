@@ -27,11 +27,6 @@ and how it can be applied effectively in various domains, such as games and real
   <li>Game Playing in AI</li>
   <li>Constraint Satisfaction Problems (CSP)</li>
   <li>Consistency in CSP</li>
-  <li>Branch and Bound Algorithm</li>
-  <li>Knowledge Representation and Reasoning</li>
-  <li>Uncertainty, Probability, Bayesian Inference</li>
-  <li>Natural Language Processing (NLP)</li>
-  <li>Robotics and Machine Perception</li>
 </ul>
 
 <h3>⚙️ Algorithms Implemented</h3>
@@ -47,11 +42,8 @@ and how it can be applied effectively in various domains, such as games and real
 
 <h4>🎯 Informed Search Algorithms:</h4>
 <ul>
-  <li>Heuristic Search</li>
   <li>Best-First Search</li>
   <li>A* Algorithm</li>
-  <li>AO* Algorithm</li>
-  <li>Hill Climbing</li>
   <li>Beam Search</li>
 </ul>
 
@@ -90,7 +82,7 @@ and how it can be applied effectively in various domains, such as games and real
   <tr>
     <td><code>Snake game</code></td>
     <td>Python Snake game, learning AI</td>
-    <td>Python, Machine Learning</td>
+    <td>Python, Best First Search</td>
   </tr>
 </table>
 <p><em>Each subfolder includes code, a detailed README (how it works, complexity, examples).</em></p>
@@ -141,10 +133,12 @@ and how it can be applied effectively in various domains, such as games and real
     <td><strong>Course Taken By:</strong></td>
     <td>Razorshi Prozzwal Talukder</td>
   </tr>
+  <br>
   <tr>
     <td><strong>Designation:</strong></td>
     <td>Lecturer</td>
   </tr>
+  <br>
   <tr>
     <td><strong>Institution:</strong></td>
     <td>North East University Bangladesh</td>
