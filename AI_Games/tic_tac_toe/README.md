@@ -2,7 +2,7 @@
 <html>
 <body>
 
-<h1 align="center">🎮 Tic Tac Toe AI — Python (Minimax with Alpha-Beta Pruning)</h1>
+<h1 align="center">🎮 Tic Tac Toe</h1>
 
 <hr>
 
@@ -26,6 +26,12 @@ It allows a human player to compete against an intelligent AI that uses the <str
 </ul>
 
 <hr>
+<br><img width="998" height="1024" alt="Screenshot 2025-10-26 222442" src="https://github.com/user-attachments/assets/77b5c9e1-73c6-4392-a542-2a46d2b82a9b" />
+
+<br><img width="1001" height="1015" alt="Screenshot 2025-10-26 222500" src="https://github.com/user-attachments/assets/31a518ab-44cb-4290-97c9-62361ff1629c" />
+
+<br><img width="993" height="1017" alt="Screenshot 2025-10-26 222523" src="https://github.com/user-attachments/assets/666277b0-2c72-4309-83c1-08bd6ce9d057" />
+
 
 <h2>⚙️ How It Works</h2>
 
@@ -76,36 +82,6 @@ The AI checks all possible moves recursively using the <strong>Minimax algorithm
 
 <hr>
 
-<h2>🖥️ Tech Stack</h2>
-
-<table border="1" width="100%">
-  <thead>
-    <tr style="background-color: #f0f0f0;">
-      <th>Component</th>
-      <th>Technology</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>Language</strong></td>
-      <td>Python</td>
-    </tr>
-    <tr>
-      <td><strong>Library</strong></td>
-      <td>Pygame</td>
-    </tr>
-    <tr>
-      <td><strong>Algorithm</strong></td>
-      <td>Minimax + Alpha-Beta Pruning</td>
-    </tr>
-    <tr>
-      <td><strong>Libraries Used</strong></td>
-      <td>NumPy</td>
-    </tr>
-  </tbody>
-</table>
-
-<hr>
 
 <h2>🎮 Controls</h2>
 
