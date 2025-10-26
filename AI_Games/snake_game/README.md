@@ -25,6 +25,9 @@ Unlike the classic snake game controlled by a player, this version includes a si
 </ul>
 
 <hr>
+<br>
+<img width="504" height="537" alt="Screenshot 2025-10-26 221541" src="https://github.com/user-attachments/assets/377c56af-4743-4d9b-b839-35786d9c0f12" />
+
 
 <h2>⚙️ How It Works</h2>
 
