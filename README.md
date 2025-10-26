@@ -62,7 +62,7 @@ and how it can be applied effectively in various domains, such as games and real
 </ul>
 
 <p>
-<em>Implemented these algorithms in practical scenarios, especially in game-based AI systems like Chess, TicTacToe, and Smart RPS.</em>
+<em>Implemented these algorithms in practical scenarios, especially in game-based AI systems like Chess, TicTacToe, and Snake.</em>
 </p>
 
 <hr>
@@ -88,8 +88,8 @@ and how it can be applied effectively in various domains, such as games and real
     <td>Python, Minimax Algorithm</td>
   </tr>
   <tr>
-    <td><code>smart-rps</code></td>
-    <td>Python Rock-Paper-Scissors with adaptive, learning AI</td>
+    <td><code>Snake game</code></td>
+    <td>Python Snake game, learning AI</td>
     <td>Python, Machine Learning</td>
   </tr>
 </table>
@@ -137,7 +137,6 @@ and how it can be applied effectively in various domains, such as games and real
 <hr>
 
 <h2>👨‍🏫 Course Supervisor</h2>
-<table>
   <tr>
     <td><strong>Course Taken By:</strong></td>
     <td>Razorshi Prozzwal Talukder</td>
@@ -150,7 +149,6 @@ and how it can be applied effectively in various domains, such as games and real
     <td><strong>Institution:</strong></td>
     <td>North East University Bangladesh</td>
   </tr>
-</table>
 
 <hr>
 
