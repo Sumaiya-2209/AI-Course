@@ -1,82 +1,162 @@
-# ♟️ Chess Game
+<!DOCTYPE html>
+<html>
+<body>
 
-A simple chess game implemented in Python using the Pygame library. It features a basic AI that calculates the optimal move by peeking **DEPTH** moves ahead. The AI assesses positions and scores only.
+<h1 align="center">🤖 Artificial Intelligence Course Overview</h1>
 
-![Chess Game Demo](demo.gif)
+<hr>
 
----
+<h2>📌 Purpose of the Course</h2>
+<p>
+The primary purpose of this course was to develop familiarity with the field of <strong>Artificial Intelligence (AI)</strong>, 
+including its foundational concepts, theoretical frameworks, and real-world applications. The course introduced key AI 
+terminologies, constraint satisfaction problems, and essential problem-solving strategies. It focused on how AI works 
+and how it can be applied effectively in various domains, such as games and real-life scenarios.
+</p>
 
-## 📖 Introduction
+<hr>
 
-This is a basic implementation of a chess game with a graphical user interface. The game allows two players to make moves on a standard chessboard. Additionally, there is an AI opponent that uses **negamax algorithm** and **alpha-beta pruning** for move selection.
+<h2>📚 What I Learned from the Course</h2>
 
----
+<h3>🧠 Theory</h3>
+<ul>
+  <li>Introduction to AI and its applications</li>
+  <li>Types of AI: Narrow, General, Super</li>
+  <li>Intelligent Agents: Simple Reflex, Model-Based, Goal-Based, Utility-Based</li>
+  <li>Search Strategies (Uninformed & Informed)</li>
+  <li>Game Playing in AI</li>
+  <li>Constraint Satisfaction Problems (CSP)</li>
+  <li>Consistency in CSP</li>
+  <li>Branch and Bound Algorithm</li>
+  <li>Knowledge Representation and Reasoning</li>
+  <li>Uncertainty, Probability, Bayesian Inference</li>
+  <li>Natural Language Processing (NLP)</li>
+  <li>Robotics and Machine Perception</li>
+</ul>
 
-## ✨ Features
+<h3>⚙️ Algorithms Implemented</h3>
 
-### 🖥️ Graphical User Interface
-- User-friendly graphical interface developed using the Pygame library
+<h4>🔍 Uninformed Search Algorithms:</h4>
+<ul>
+  <li>Breadth-First Search (BFS)</li>
+  <li>Depth-First Search (DFS)</li>
+  <li>Iterative Deepening Search (IDS)</li>
+  <li>Depth-Limited Search (DLS)</li>
+  <li>Bidirectional Search</li>
+</ul>
 
-### 👥 Two-player Mode
-- Play against a friend in human vs. human gameplay
-- Enjoy the classic chess experience with two human players
+<h4>🎯 Informed Search Algorithms:</h4>
+<ul>
+  <li>Heuristic Search</li>
+  <li>Best-First Search</li>
+  <li>A* Algorithm</li>
+  <li>AO* Algorithm</li>
+  <li>Hill Climbing</li>
+  <li>Beam Search</li>
+</ul>
 
-### 🤖 AI Opponent
-- Challenge yourself against an AI opponent equipped with:
-  - Negamax algorithm
-  - Alpha-beta pruning
-  - Configurable difficulty levels
+<h4>🎮 Game Playing Algorithms:</h4>
+<ul>
+  <li>Minimax Algorithm</li>
+  <li>Alpha-Beta Pruning</li>
+</ul>
 
-### ♔ Game Rules & Mechanics
-- Full implementation of chess rules including:
-  - Checkmate detection
-  - Stalemate detection
-  - Legal move validation
+<p>
+<em>Implemented these algorithms in practical scenarios, especially in game-based AI systems like Chess, TicTacToe, and Smart RPS.</em>
+</p>
 
-### 🎯 Advanced Chess Mechanics
-- **Pawn Promotion** - Promote pawns reaching the 8th rank
-- **En Passant** - Special pawn capture move
-- **Castling** - King and rook special move
+<hr>
 
-### ↩️ Game Controls
-- **Undo Move:** Press `Z`
-- **Reset Board:** Press `R`
+<h2>📂 Repository Overview</h2>
 
-### 🎨 Customization
-- Multiple chess board color themes
-- Different piece styles
+<h3>📁 AI-Games</h3>
+<p><strong>AI-powered games demonstrating practical applications of algorithms:</strong></p>
+<table>
+  <tr>
+    <th>Game</th>
+    <th>Description</th>
+    <th>Technologies</th>
+  </tr>
+  <tr>
+    <td><code>chess</code></td>
+    <td>Human vs AI chess game</td>
+    <td>Next.js, minimax with alpha-beta pruning</td>
+  </tr>
+  <tr>
+    <td><code>tictactoe</code></td>
+    <td>Python Tic-Tac-Toe with unbeatable minimax AI</td>
+    <td>Python, Minimax Algorithm</td>
+  </tr>
+  <tr>
+    <td><code>smart-rps</code></td>
+    <td>Python Rock-Paper-Scissors with adaptive, learning AI</td>
+    <td>Python, Machine Learning</td>
+  </tr>
+</table>
+<p><em>Each subfolder includes code, a detailed README (how it works, complexity, examples).</em></p>
 
-### 🔊 Audio & Visual Effects
-- Piece movement sounds
-- Capture sounds
-- Visual move highlights
+<h3>📁 AI-Tools-Exploration</h3>
+<p>AI-generated course video and slides, with documentation on tools and process.</p>
 
----
+<h3>📁 Algorithm-Implementation</h3>
+<p><strong>Contains all implemented AI algorithms, organized by type:</strong></p>
+<table>
+  <tr>
+    <th>Folder</th>
+    <th>Description</th>
+    <th>Algorithms</th>
+  </tr>
+  <tr>
+    <td><code>uninformed-searches</code></td>
+    <td>Classic uninformed search algorithms</td>
+    <td>BFS, DFS, IDS, DLS, Bidirectional</td>
+  </tr>
+  <tr>
+    <td><code>informed-searches</code></td>
+    <td>Heuristic and best-first search algorithms</td>
+    <td>A*, AO*, Beam, etc.</td>
+  </tr>
+  <tr>
+    <td><code>local-searches</code></td>
+    <td>Local search methods</td>
+    <td>Hill Climbing, Beam Search</td>
+  </tr>
+  <tr>
+    <td><code>minimax-alphabetapruning</code></td>
+    <td>Game tree search</td>
+    <td>Minimax, Alpha-Beta Pruning</td>
+  </tr>
+</table>
+<p><em>Each subfolder includes code, a detailed README (how it works, applications, complexity, examples).</em></p>
 
-## ♟️ Special Moves
+<hr>
 
-### En Passant
-En passant is a special pawn capture that can occur when an opponent's pawn moves two squares forward from its starting position, landing beside your pawn. You can capture it as if it had only moved one square.
+<h2>⏱️ Duration of the Course</h2>
+<p>The total duration of this course was <strong>6 months</strong>.</p>
 
-### Pawn Promotion
-When a pawn reaches the opposite end of the board (8th rank), it can be promoted to:
-- Queen ♕
-- Rook ♜
-- Bishop ♗
-- Knight ♞
+<hr>
 
-### Castling
-A special move involving the king and either rook, where:
-- The king moves two squares toward the rook
-- The rook moves to the square the king crossed
+<h2>👨‍🏫 Course Supervisor</h2>
+<table>
+  <tr>
+    <td><strong>Course Taken By:</strong></td>
+    <td>Razorshi Prozzwal Talukder</td>
+  </tr>
+  <tr>
+    <td><strong>Designation:</strong></td>
+    <td>Lecturer</td>
+  </tr>
+  <tr>
+    <td><strong>Institution:</strong></td>
+    <td>North East University Bangladesh</td>
+  </tr>
+</table>
 
----
+<hr>
 
-## 🎮 How to Play
+<p align="center">
+  <strong>🎓 Course Completed Successfully 🎓</strong>
+</p>
 
-### Installation
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/anuragjain-git/chess-bot.git
-   cd chess-bot
+</body>
+</html>
