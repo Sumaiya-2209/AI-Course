@@ -9,12 +9,10 @@ This folder contains two AI-powered creations based on our AI course:
 </p>
 
 <div align="center">
-  <table>
     <tr>
-      <td align="center"><strong>🎥 Video</strong><br>(1+ minute)</td>
+      <td align="center"><strong>🎥 Video</strong><br>(1+ minute)</td><br>
       <td align="center"><strong>📊 Presentation Slides</strong><br>(14 slides)</td>
     </tr>
-  </table>
 </div>
 
 <p align="center">
