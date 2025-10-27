@@ -16,7 +16,8 @@ BFS explores nodes level-by-level starting from a source. It uses a queue and ma
 
 ### Input / Output
 
-![Breadth-First Search (BFS)](https://github.com/user-attachments/assets/88243b8a-83a9-46b0-a3d7-fad43806764b)
+<img width="332" height="237" alt="BFS" src="https://github.com/user-attachments/assets/4c340f0d-d28a-45ff-9ec2-2d9ef9ed8a80" />
+
 
 
 ## 2. Depth-First Search (DFS)
@@ -35,8 +36,8 @@ DFS explores as deep as possible along a branch before backtracking. Implemented
 -Space: O(V) (recursion stack) <br>
 
 ### Input / Output
+<img width="343" height="240" alt="DFS" src="https://github.com/user-attachments/assets/7295ef87-dab5-4c12-9b5e-8db565703b22" />
 
-![Depth-First-Search](https://github.com/user-attachments/assets/92eeb2e1-f307-4ba0-92eb-72136f942ebc)
 
 ## 3. Bidirectional Search
 ### How it Works
@@ -53,7 +54,7 @@ Runs two simultaneous searches — one from the start and one from the goal — 
 
 ### Input / Output
 
-![Bidirectional Search](https://github.com/user-attachments/assets/59db6b83-19fd-40c3-9365-e65e12149393)
+<img width="619" height="390" alt="Bidirectional" src="https://github.com/user-attachments/assets/e8b43419-8fb3-4f4c-bdd3-4c09d3d137f2" />
 
 
 ## 4. Depth-Limited Search (DLS)
@@ -73,7 +74,7 @@ A DFS variant with a fixed depth limit. If depth limit reached, the search stops
 
 ### Input / Output
 
-![depth_limited_search](https://github.com/user-attachments/assets/b86a3f3a-61eb-4f36-aad2-2fc2322d97d1)
+<img width="392" height="345" alt="DLS1" src="https://github.com/user-attachments/assets/dd2683d7-6004-4c25-b0f1-e6cfcc6de888" />
 
 
 ## 5. Iterative Deepening Depth-First Search (IDDFS)
@@ -91,8 +92,8 @@ Performs repeated DLS with increasing depth limits (0,1,2...) until solution fou
 -Space: O(d) <br>
 
 ### Input / Output
+<img width="425" height="295" alt="IDS" src="https://github.com/user-attachments/assets/7374a397-3d86-4b39-9938-1a59a3b852df" />
 
-![Iterative Deepening Depth-First Search (IDDFS)](https://github.com/user-attachments/assets/027a0a81-a590-44b0-96da-09777940dd9d)
 
 
 ## 6. Best-First Search
@@ -111,7 +112,7 @@ Explores nodes by a heuristic value (priority queue). Chooses node that appears 
 
 ### Input / Output
 
-![Best-First Search](https://github.com/user-attachments/assets/2083d7eb-b9fc-4724-a662-07c5875679ed)
+<img width="412" height="626" alt="Bestfirst" src="https://github.com/user-attachments/assets/407dab91-f737-4492-8cac-448685d6f742" />
 
 
 ## 7. Beam Search
@@ -131,7 +132,7 @@ A breadth-limited heuristic search that keeps only the best k candidates at each
 
 ### Input / Output
 
-![Beam Search](https://github.com/user-attachments/assets/bfbd38fc-f29c-469d-9bb7-f35755d7f53d)
+<img width="356" height="420" alt="Beamsearch" src="https://github.com/user-attachments/assets/6053c2c2-d667-4d5b-95a0-81c52a7ce5b7" />
 
 
 ## 8. A* Search
@@ -151,7 +152,7 @@ Uses f(n) = g(n) + h(n) where g is cost from start and h is heuristic to goal. I
 
 ### Input / Output
 
-<img width="559" height="669" alt="a-star" src="https://github.com/user-attachments/assets/9e6b01fb-a000-44bc-a685-c0894851929a" />
+<img width="348" height="507" alt="A_star" src="https://github.com/user-attachments/assets/a9fdf672-0abc-4944-acff-5fedb8456bd8" />
 
 ## 9. Minimax Algorithm
 ### How it Works
@@ -170,7 +171,7 @@ Adversarial search that assumes both players play optimally; maximizer chooses m
 
 ### Input / Output
 
-<img width="500" height="447" alt="Minimax Algorithm" src="https://github.com/user-attachments/assets/3880021c-4b9e-4377-a908-29672edc1ffd" />
+<img width="544" height="247" alt="minmax" src="https://github.com/user-attachments/assets/cd89501e-09da-47d9-b9a5-301b5211b4f7" />
 
 
 ## 10. Alpha-Beta Pruning
@@ -190,7 +191,7 @@ Optimization of minimax that prunes branches that cannot affect final decision, 
 
 ### Input / Output
 
-![Alpha-Beta Pruning](https://github.com/user-attachments/assets/e3f07165-638f-485f-8296-63f296ec5fae)
+<img width="645" height="368" alt="AlphaBeta" src="https://github.com/user-attachments/assets/d1e11339-6461-4b79-be9f-c5570aadba6b" />
 
 
 ## How to use these notes
