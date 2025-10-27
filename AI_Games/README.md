@@ -1,1 +1,80 @@
-<!doctype html> <html lang="en"> <head> <meta charset="utf-8" /> <meta name="viewport" content="width=device-width,initial-scale=1" /> <title>AI Game Collection (Python)</title> <meta name="description" content="Three classic AI games (Chess, Connect Four, Tic Tac Toe) implemented in Python using Minimax + Alpha-Beta Pruning." /> <style> :root{ --bg:#0f1724; --card:#0b1220; --muted:#9aa4b2; --accent:#7c3aed; --glass: rgba(255,255,255,0.04); --radius:14px; --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", "Courier New", monospace; } *{box-sizing:border-box} body{ margin:0; font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; background: linear-gradient(180deg, #071028 0%, #071022 60%); color:#e6eef8; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; padding:32px; line-height:1.45; } .container{ max-width:980px; margin:0 auto; } header{ display:flex; gap:16px; align-items:center; margin-bottom:22px; } .logo{ width:72px; height:72px; border-radius:16px; background:linear-gradient(135deg, rgba(124,58,237,0.15), rgba(59,130,246,0.08)); display:flex; align-items:center; justify-content:center; font-size:28px; box-shadow: 0 6px 24px rgba(7,10,20,0.6); border:1px solid rgba(255,255,255,0.03); } h1{margin:0;font-size:22px;letter-spacing:-0.3px} p.lead{margin:6px 0 0;color:var(--muted);font-size:14px} .grid{ display:grid; grid-template-columns: 1fr 320px; gap:20px; margin-top:20px; } @media (max-width:900px){ .grid{grid-template-columns:1fr} } .card{ background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)); border-radius:var(--radius); padding:20px; box-shadow: 0 8px 30px rgba(2,6,23,0.6); border:1px solid rgba(255,255,255,0.03); } .meta{ display:flex; gap:10px; flex-wrap:wrap; margin-top:14px; } .badge{ background:var(--glass); padding:6px 10px; border-radius:999px; color:var(--muted); font-size:12px; border:1px solid rgba(255,255,255,0.02); } h2{ margin-top:0; font-size:18px; display:flex; gap:10px; align-items:center; } ul{margin:8px 0 12px 20px;color:var(--muted)} .game{ margin-bottom:14px; padding:12px; border-radius:12px; background: linear-gradient(180deg, rgba(255,255,255,0.01), transparent); border:1px solid rgba(255,255,255,0.02); } pre{ background:linear-gradient(180deg, rgba(0,0,0,0.22), rgba(255,255,255,0.02)); padding:12px; border-radius:8px; overflow:auto; font-family:var(--mono); font-size:13px; color:#dbeafe; margin:12px 0 0; } footer{margin-top:18px;color:var(--muted);font-size:13px} .cta{ display:inline-block; padding:10px 14px; border-radius:10px; background:linear-gradient(90deg,var(--accent), #3b82f6); color:white; text-decoration:none; font-weight:600; box-shadow: 0 8px 26px rgba(124,58,237,0.12); border: none; } .side-list{display:flex;flex-direction:column;gap:10px} .side-item{ background:rgba(255,255,255,0.02); padding:12px;border-radius:10px;border:1px solid rgba(255,255,255,0.02); } .muted{color:var(--muted);font-size:13px} .emoji{margin-right:8px} </style> </head> <body> <div class="container"> <header> <div class="logo">🤖</div> <div> <h1>AI Game Collection (Python)</h1> <p class="lead">Three classic games powered by Minimax + Alpha-Beta Pruning — Chess, Connect Four & Tic Tac Toe. Clean code, simple GUI (tkinter / pygame), and learning-focused.</p> </div> </header>
+<section>
+  <h2>🧠 Overview</h2>
+  <p>This project demonstrates core AI search algorithms applied to games. Key concepts used across the games:</p>
+  <ul>
+    <li>Minimax Algorithm</li>
+    <li>Alpha-Beta Pruning</li>
+    <li>Heuristic Evaluation</li>
+    <li>Depth-Limited Search</li>
+  </ul>
+  <p>Each game follows the same interface layout and logic flow and includes a GUI (tkinter or pygame).</p>
+</section>
+
+<section>
+  <h2>🎯 Game 1 — Chess</h2>
+  <p><strong>Description:</strong> A simplified Chess AI that predicts the next move by searching possible future positions and evaluating board states.</p>
+  <p><strong>Algorithms & Concepts:</strong></p>
+  <ul>
+    <li>Minimax</li>
+    <li>Alpha-Beta Pruning</li>
+    <li>Depth-limited search</li>
+    <li>Piece-value heuristic evaluation</li>
+  </ul>
+  <p><strong>How it works:</strong> AI generates legal moves, evaluates board using a scoring function, and picks the best move via Minimax. Alpha-Beta pruning trims the search tree.</p>
+</section>
+
+<section>
+  <h2>🎯 Game 2 — Connect Four</h2>
+  <p><strong>Description:</strong> Classic 7×6 Connect Four. AI analyzes column drops to block or win.</p>
+  <p><strong>Algorithms & Concepts:</strong></p>
+  <ul>
+    <li>Minimax with depth limit</li>
+    <li>Alpha-Beta Pruning</li>
+    <li>Heuristic evaluation based on connected discs and threats</li>
+  </ul>
+  <p><strong>How it works:</strong> AI simulates column drops, scores moves with heuristics, and selects the best using Minimax + Alpha-Beta.</p>
+</section>
+
+<section>
+  <h2>🎯 Game 3 — Tic Tac Toe</h2>
+  <p><strong>Description:</strong> 3×3 Tic Tac Toe where the AI plays optimally and never loses.</p>
+  <p><strong>Algorithms & Concepts:</strong></p>
+  <ul>
+    <li>Complete Minimax search</li>
+    <li>Alpha-Beta Pruning</li>
+  </ul>
+  <p><strong>How it works:</strong> Board is a 3×3 matrix. AI recursively simulates moves and chooses the optimal one with Minimax; Alpha-Beta reduces node visits.</p>
+</section>
+
+<section>
+  <h2>🧰 Installation</h2>
+  <p>Quick start:</p>
+  <pre><code># Clone the repository
+
+<section>
+  <h2>📂 Project Structure (example)</h2>
+  <ul>
+    <li><span class="pill">/chess</span> — Chess game code & AI</li>
+    <li><span class="pill">/connect4</span> — Connect Four implementation</li>
+    <li><span class="pill">/tictactoe</span> — Tic Tac Toe implementation</li>
+    <li><span class="pill">README.md</span> — This file</li>
+  </ul>
+</section>
+
+<section>
+  <h2>🛠️ Implementation Notes</h2>
+  <ul>
+    <li>Heuristic functions evaluate piece values, mobility, control of center (Chess), and connection strengths (Connect Four).</li>
+    <li>Depth limits are used to bound search time for Chess & Connect Four; Tic Tac Toe uses full search.</li>
+    <li>Alpha-Beta pruning is implemented to optimize search performance.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>🤝 Contributing</h2>
+  <p>PRs welcome. If you add features (better heuristics, move ordering, GUI polish), please include tests and update documentation.</p>
+</section>
+
+<footer>
+  <p>Built with ❤️ for learning AI game algorithms. — Keep experimenting and tune heuristics to level up the bots.</p>
+</footer>
