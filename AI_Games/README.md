@@ -36,7 +36,7 @@ A simplified Chess AI that predicts the best move using Minimax + Alpha-Beta Pru
 <p><strong>Features:</strong><br>
 ✔ Legal move validation<br>
 ✔ AI difficulty adjustment (depth limit)<br>
-✔ Simple GUI (<code>tkinter</code>/<code>pygame</code>)</p>
+✔ Simple GUI (<code>pygame</code>)</p>
 
 <hr>
 
@@ -60,7 +60,7 @@ A 3×3 grid game where the player competes against an AI that never loses. The A
 
 <p><strong>Features:</strong><br>
 ✔ Unbeatable AI (always wins or forces a draw)<br>
-✔ Simple GUI (<code>tkinter</code>)<br>
+✔ Simple GUI (<code>pygame</code>)<br>
 ✔ Player vs AI mode</p>
 
 <hr>
